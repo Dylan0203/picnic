@@ -93,29 +93,26 @@ header li a:hover {
 }
 
 .flow{
-	width:70%;
 	border-radius:10px;
 	box-shadow: 2px 2px 10px darkgray;
 	margin:0 auto;
+  width:70%;
+  padding: 15px;
 }
-.flow ul{
-	padding-left:0;
-}
-.flow li{
-	display:inline-block;
+
+.boxbtn {
+  padding: 30px;
+  margin:0 10px;
 	border:1px solid lightgray;
-	margin:40px 10px;
-	width:100px;
-	height:100px;
+  border-radius: 10px ;
 	background: -webkit-linear-gradient(bottom, transparent, lightgray);
   background: -o-linear-gradient(bottom, transparent, lightgray);
   background: -mose-linear-gradient(bottom, transparent, lightgray);
   background: linear-gradient(bottom, transparent, lightgray);
   text-align:center;
-  line-height:7em;
 }
 
-.flow li:hover{
+.boxbtn:hover{
 	background: -webkit-linear-gradient(top, transparent, lightgray);
   background: -o-linear-gradient(top, transparent, lightgray);
   background: -mose-linear-gradient(top, transparent, lightgray);
